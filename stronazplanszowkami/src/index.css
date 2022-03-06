@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: Nunito,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #E5DFDF;
+  text-align: center;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,500,600,700,800,900&display=swap);
+
+.menu1 {
+  background-color: #ffffff;
+  width: 100%;
+  position: sticky;
+  position: -webkit-sticky;
+  height: 70px;
+  top: 0;
+}
+
+.search_bar {
+  width: 40%;
+  text-align: left;
+}
+
+.empty_space {
+  width: 20%;
+}
+
+.rightMenuText{
+  color: rgb(127 70 119);
+  font-weight: 700;
+}
+
+.rightMenuText:hover{
+  color: rgb(39, 5, 34);
+}
+
+.menu2 {
+  background-color: #201633;
+  font-weight: bold;
+  color: #ffffff;
+  height: 50px;
+  font-size: 25px;
+}
+
+.menu3 {
+  background-color: #53875C;
+  font-weight: bold;
+  color: #ffffff;
+  height: 30px;
+  font-size: 20px;
+}
+
+.main {
+  text-align: center;
+  background-color: #ffffff;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.product_list {
+  margin-left: auto;
+}
+
+.side {
+  background-color: #ffffff;
+  position: fixed;
+  right: 0;
+  top: 13%;
+  width: 130px;
+  height: 70%;
+  line-height: 30px;
+}
+
+.scroll_up {
+  text-align: center;
+  bottom: 80px;
+  right: 10px;
+  position: fixed;
+  background-color: #7F4677;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.scroll_up:hover {
+  background-color: #201633;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  border-radius: 20px;
+  border: 2px solid #7F4677;
+  color: #7F4677;
+  width: 90px;
+}
+
+.details{
+  position: relative;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #7F4677;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+.mid {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+input[type=search] {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #7F4677;
+}
+
+input[type=search]:focus {
+  border: 3px solid #7F4677;
+}
+
+table {
+  width: 100%;
+}
+
+/*.day {
+  float: right;
+  height: 300px;
+  width: 150px;
+}*/
+
+.product {
+  float: right;
+  text-decoration: none;
+  height: 300px;
+  width: 150px;
+}
+
+.product_name {
+  color: #7F4677;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.product_name:hover {
+  color: #201633;
+}
+
+.bottom_text {
+  text-align: left;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 14px;
+  color: #666
+}
+
+.footer {
+  background-color: #201633;
+  height: 300px;
+}
